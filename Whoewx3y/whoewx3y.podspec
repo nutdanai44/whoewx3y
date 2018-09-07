@@ -26,7 +26,7 @@ s.platform = :ios, '9.0'
 
   s.source       = { :git => "https://github.com/nutdanai44/whoewx3y.git", :tag => "#{s.version}" }
 
-  s.source_files  = "**/*/*.swift"
+  s.source_files  = "Whoewx3Y/**/*/*.swift"
   #s.exclude_files = "Classes/Exclude"
 
 
