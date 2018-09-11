@@ -11,9 +11,6 @@
 		04EA5D952142E57600AE1587 /* Whoewx3yFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA5D942142E57600AE1587 /* Whoewx3yFunction.swift */; };
 		04EA5D9B2145A98300AE1587 /* BtnClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA5D982145A98300AE1587 /* BtnClosure.swift */; };
 		04EA5D9C2145A98300AE1587 /* ImageViewAligned.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA5D9A2145A98300AE1587 /* ImageViewAligned.swift */; };
-		04EA5DAC214778D200AE1587 /* TestUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EA5DA9214778D100AE1587 /* TestUI.xib */; };
-		04EA5DAD214778D200AE1587 /* TestSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA5DAA214778D100AE1587 /* TestSetting.swift */; };
-		04EA5DAE214778D200AE1587 /* TestUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA5DAB214778D100AE1587 /* TestUI.swift */; };
 		04EA5DB32147795800AE1587 /* LoadNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA5DB22147795800AE1587 /* LoadNib.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,9 +21,6 @@
 		04EA5D942142E57600AE1587 /* Whoewx3yFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whoewx3yFunction.swift; sourceTree = "<group>"; };
 		04EA5D982145A98300AE1587 /* BtnClosure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BtnClosure.swift; sourceTree = "<group>"; };
 		04EA5D9A2145A98300AE1587 /* ImageViewAligned.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewAligned.swift; sourceTree = "<group>"; };
-		04EA5DA9214778D100AE1587 /* TestUI.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestUI.xib; sourceTree = "<group>"; };
-		04EA5DAA214778D100AE1587 /* TestSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSetting.swift; sourceTree = "<group>"; };
-		04EA5DAB214778D100AE1587 /* TestUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUI.swift; sourceTree = "<group>"; };
 		04EA5DB22147795800AE1587 /* LoadNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadNib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,7 +54,6 @@
 		04EA5D8B2142E55000AE1587 /* Whoewx3y */ = {
 			isa = PBXGroup;
 			children = (
-				04EA5D9D2145A98800AE1587 /* UiCommon */,
 				04EA5D962145A98300AE1587 /* Extension */,
 				04EA5D8C2142E55000AE1587 /* Whoewx3y.h */,
 				04EA5D8D2142E55000AE1587 /* Info.plist */,
@@ -93,24 +86,6 @@
 				04EA5D9A2145A98300AE1587 /* ImageViewAligned.swift */,
 			);
 			path = UIImage;
-			sourceTree = "<group>";
-		};
-		04EA5D9D2145A98800AE1587 /* UiCommon */ = {
-			isa = PBXGroup;
-			children = (
-				04EA5DAF214778D500AE1587 /* Example */,
-			);
-			path = UiCommon;
-			sourceTree = "<group>";
-		};
-		04EA5DAF214778D500AE1587 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				04EA5DAA214778D100AE1587 /* TestSetting.swift */,
-				04EA5DA9214778D100AE1587 /* TestUI.xib */,
-				04EA5DAB214778D100AE1587 /* TestUI.swift */,
-			);
-			path = Example;
 			sourceTree = "<group>";
 		};
 		04EA5DB12147792E00AE1587 /* UIView */ = {
@@ -190,7 +165,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04EA5DAC214778D200AE1587 /* TestUI.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,11 +175,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04EA5DAE214778D200AE1587 /* TestUI.swift in Sources */,
 				04EA5DB32147795800AE1587 /* LoadNib.swift in Sources */,
 				04EA5D9C2145A98300AE1587 /* ImageViewAligned.swift in Sources */,
 				04EA5D9B2145A98300AE1587 /* BtnClosure.swift in Sources */,
-				04EA5DAD214778D200AE1587 /* TestSetting.swift in Sources */,
 				04EA5D952142E57600AE1587 /* Whoewx3yFunction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

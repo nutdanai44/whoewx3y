@@ -1,0 +1,16 @@
+PODS:
+  - whoewx3y (0.0.15)
+
+DEPENDENCIES:
+  - whoewx3y
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - whoewx3y
+
+SPEC CHECKSUMS:
+  whoewx3y: f4848547f6ae0eb015eb9b31ebf96df7619e607d
+
+PODFILE CHECKSUM: d055c924a925cd429448e979fe291ea1472db458
+
+COCOAPODS: 1.6.0.beta.1

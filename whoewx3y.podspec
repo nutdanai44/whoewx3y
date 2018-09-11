@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "whoewx3y"
-  spec.version      = "0.0.12"
+  spec.version      = "0.0.15"
   spec.summary      = "welcome to Nutdanai framework."
   spec.description  = "welcome to Nutdanai framework. Yah mon!"
   spec.homepage     = "https://github.com/nutdanai44/whoewx3y.git"
@@ -10,7 +10,6 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/nutdanai44/whoewx3y.git", :tag => "#{spec.version}" }
 spec.source_files = "Whoewx3y/**/*.{h,m,swift}"
-spec.exclude_files = "Classes/Exclude"
+spec.exclude_files = "Whoewx3y/UiCommon", "Whoewx3y/Extension"
 spec.requires_arc = true
-spec.frameworks = "QuartzCore"
 end
