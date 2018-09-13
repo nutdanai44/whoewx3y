@@ -12,9 +12,7 @@
 		04EA5DC62147A80C00AE1587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EA5DC42147A80C00AE1587 /* Main.storyboard */; };
 		04EA5DC82147A80E00AE1587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EA5DC72147A80E00AE1587 /* Assets.xcassets */; };
 		04EA5DCB2147A80E00AE1587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EA5DC92147A80E00AE1587 /* LaunchScreen.storyboard */; };
-		04EA5DD52147A87900AE1587 /* TestUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EA5DD22147A87800AE1587 /* TestUI.xib */; };
-		04EA5DD62147A87900AE1587 /* TestUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA5DD32147A87800AE1587 /* TestUI.swift */; };
-		04EA5DD72147A87900AE1587 /* TestSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA5DD42147A87800AE1587 /* TestSetting.swift */; };
+		04EA5DDA2147B6A400AE1587 /* gintama64.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04EA5DD92147B6A400AE1587 /* gintama64.jpg */; };
 		63FA18CB9B2E03AEB5279C29 /* Pods_Whoewx3YExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D148FF96DDB890F11745F5A /* Pods_Whoewx3YExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,9 +24,7 @@
 		04EA5DC72147A80E00AE1587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04EA5DCA2147A80E00AE1587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04EA5DCC2147A80E00AE1587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04EA5DD22147A87800AE1587 /* TestUI.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestUI.xib; sourceTree = "<group>"; };
-		04EA5DD32147A87800AE1587 /* TestUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUI.swift; sourceTree = "<group>"; };
-		04EA5DD42147A87800AE1587 /* TestSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSetting.swift; sourceTree = "<group>"; };
+		04EA5DD92147B6A400AE1587 /* gintama64.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gintama64.jpg; sourceTree = "<group>"; };
 		1D148FF96DDB890F11745F5A /* Pods_Whoewx3YExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Whoewx3YExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E78EA214F6A6109884874CB /* Pods-Whoewx3YExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whoewx3YExample.release.xcconfig"; path = "Target Support Files/Pods-Whoewx3YExample/Pods-Whoewx3YExample.release.xcconfig"; sourceTree = "<group>"; };
 		9F4DA0E142795FAFF69B48A9 /* Pods-Whoewx3YExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whoewx3YExample.debug.xcconfig"; path = "Target Support Files/Pods-Whoewx3YExample/Pods-Whoewx3YExample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,11 +65,9 @@
 			children = (
 				04EA5DC02147A80C00AE1587 /* AppDelegate.swift */,
 				04EA5DC22147A80C00AE1587 /* ViewController.swift */,
-				04EA5DD42147A87800AE1587 /* TestSetting.swift */,
-				04EA5DD32147A87800AE1587 /* TestUI.swift */,
-				04EA5DD22147A87800AE1587 /* TestUI.xib */,
 				04EA5DC42147A80C00AE1587 /* Main.storyboard */,
 				04EA5DC72147A80E00AE1587 /* Assets.xcassets */,
+				04EA5DD92147B6A400AE1587 /* gintama64.jpg */,
 				04EA5DC92147A80E00AE1587 /* LaunchScreen.storyboard */,
 				04EA5DCC2147A80E00AE1587 /* Info.plist */,
 			);
@@ -86,7 +80,6 @@
 				9F4DA0E142795FAFF69B48A9 /* Pods-Whoewx3YExample.debug.xcconfig */,
 				4E78EA214F6A6109884874CB /* Pods-Whoewx3YExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -135,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 04EA5DB82147A80C00AE1587 /* Build configuration list for PBXProject "Whoewx3yExample" */;
+			buildConfigurationList = 04EA5DB82147A80C00AE1587 /* Build configuration list for PBXProject "Whoewx3YExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -159,9 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04EA5DCB2147A80E00AE1587 /* LaunchScreen.storyboard in Resources */,
-				04EA5DD52147A87900AE1587 /* TestUI.xib in Resources */,
 				04EA5DC82147A80E00AE1587 /* Assets.xcassets in Resources */,
 				04EA5DC62147A80C00AE1587 /* Main.storyboard in Resources */,
+				04EA5DDA2147B6A400AE1587 /* gintama64.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,15 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Whoewx3YExample-checkManifestLockResult.txt",
 			);
@@ -195,16 +184,14 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Whoewx3YExample/Pods-Whoewx3YExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/whoewx3y/whoewx3y.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/whoewx3y.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,8 +207,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				04EA5DC32147A80C00AE1587 /* ViewController.swift in Sources */,
-				04EA5DD62147A87900AE1587 /* TestUI.swift in Sources */,
-				04EA5DD72147A87900AE1587 /* TestSetting.swift in Sources */,
 				04EA5DC12147A80C00AE1587 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,7 +386,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04EA5DB82147A80C00AE1587 /* Build configuration list for PBXProject "Whoewx3yExample" */ = {
+		04EA5DB82147A80C00AE1587 /* Build configuration list for PBXProject "Whoewx3YExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04EA5DCD2147A80E00AE1587 /* Debug */,

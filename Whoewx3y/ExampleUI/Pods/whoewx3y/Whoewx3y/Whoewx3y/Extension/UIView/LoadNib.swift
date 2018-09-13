@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension UIView {
+public extension UIView {
     /** Loads instance from nib with the same name. */
     func loadNib() -> UIView {
         let bundle = Bundle(for: type(of: self))

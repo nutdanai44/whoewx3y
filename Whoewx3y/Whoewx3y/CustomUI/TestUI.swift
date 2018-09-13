@@ -15,7 +15,7 @@ class TestUI : UIView {
     @IBOutlet weak var view: UIView!
     @IBOutlet weak var lbValue: UILabel!
     
-    var count = 0
+    var count = TestSetting.shared.minimunValue
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -66,11 +66,11 @@ private extension TestUI {
         setDefault()
     }
 }
-extension UIView {
-    func loadNib() -> UIView {
-        let bundle = Bundle(for: type(of: self))
-        let nibName = type(of: self).description().components(separatedBy: ".").last!
-        let nib = UINib(nibName: nibName, bundle: bundle)
-        return nib.instantiate(withOwner: self, options: nil).first as! UIView
-    }
-}
+//extension UIView {
+//    func loadNib() -> UIView {
+//        let bundle = Bundle(for: type(of: self))
+//        let nibName = type(of: self).description().components(separatedBy: ".").last!
+//        let nib = UINib(nibName: nibName, bundle: bundle)
+//        return nib.instantiate(withOwner: self, options: nil).first as! UIView
+//    }
+//}
