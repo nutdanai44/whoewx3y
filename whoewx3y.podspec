@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "whoewx3y"
-  spec.version      = "0.0.20"
+  spec.version      = "0.0.21"
   spec.summary      = "welcome to Nutdanai framework."
   spec.description  = "welcome to Nutdanai framework. Yah mon!"
   spec.homepage     = "https://github.com/nutdanai44/whoewx3y.git"

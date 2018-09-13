@@ -68,7 +68,7 @@
                                 <rect key="frame" x="0.0" y="240" width="375" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xcs-0R-RBC" customClass="TestUI">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xcs-0R-RBC" customClass="TestUI" customModule="whoewx3y">
                                 <rect key="frame" x="0.0" y="517" width="375" height="150"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>

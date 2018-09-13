@@ -8,13 +8,13 @@
 
 import UIKit
 
-final class TestSetting {
-    private init() { }
-    static let shared = TestSetting()
+public final class TestSetting {
+    public init() { }
+    public static let shared = TestSetting()
     
     var minimunValue = 0
     
-    func setMin(value: Int){
+    public func setMin(value: Int){
         minimunValue = value
     }
 }
