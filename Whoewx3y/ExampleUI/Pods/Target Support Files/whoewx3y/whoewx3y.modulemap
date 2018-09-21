@@ -1,0 +1,6 @@
+framework module whoewx3y {
+  umbrella header "whoewx3y-umbrella.h"
+
+  export *
+  module * { export * }
+}
