@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Int {
+public extension Int {
     public func miniNumber() -> String{
         if self < 1000 {
             return "\(self)"

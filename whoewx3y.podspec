@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "whoewx3y"
-  spec.version      = "0.0.22"
+  spec.version      = "0.0.25"
   spec.summary      = "welcome to Nutdanai framework."
   spec.description  = "welcome to Nutdanai framework. Yah mon!"
   spec.homepage     = "https://github.com/nutdanai44/whoewx3y.git"
@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/nutdanai44/whoewx3y.git", :tag => "#{spec.version}" }
 spec.source_files = "Whoewx3y/Whoewx3y/**/*.{h,m,swift}"
 spec.resources = "Whoewx3y/Whoewx3y/**/*.{xib}"
-spec.exclude_files = "Whoewx3y/Extension","Whoewx3y/CustomUI"
+spec.exclude_files = [ "Whoewx3y/Extension/**" , "Whoewx3y/CustomUI/**" ]
 spec.requires_arc = true
 
 spec.dependencies = { "SDWebImage" => "~>4.0" }
